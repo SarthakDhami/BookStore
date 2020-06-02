@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel_mainMainActivity"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/custom_actionbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@+id/setting_toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
+                android:id="@+id/r1_List"
+                android:background="@color/backgrounBlack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:layout_below="@+id/r1_List"
+                android:id="@+id/tv_popular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorTextHint"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/_10dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="Popular List"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="8dp"
+                android:id="@+id/r1_popularBook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_popular" />
+
+            <TextView
+                android:id="@+id/tv_popularshort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/r1_popularBook"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorTextHint"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="@dimen/_10dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="Popular Short Story"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/r1_popularshort"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@+id/tv_popularshort" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

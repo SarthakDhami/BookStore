@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="popularBook">
+        <item>The Adventures of Sherlock Holmes </item>
+        <item>ALice in wonderland </item>
+        <item>ROMEO AND JULIET </item>
+        <item>THE ALTER OF THE DEAD </item>
+        <item> Pride and Prejudice</item>
+        <item>Twelve Years a Slave</item>
+    </string-array>
+    <string-array name="urlPopularBook">
+        <item> https://sherlock-holm.es/stories/html/advs.html </item>
+        <item> https://www.gutenberg.org/files/11/11-h/11-h.htm </item>
+        <item> https://www.bookrix.com/book.html?bookID=bx.shakespeare_1212071424.7241220474#1296,432,96444 </item>
+        <item>https://www.gutenberg.org/files/642/642-h/642-h.htm</item>
+        <item>https://www.planetebook.com/pride-and-prejudice/</item>
+        <item>https://www.gutenberg.org/files/45631/45631-h/45631-h.htm</item>
+    </string-array>
+
+    <string-array name="genralBook">
+        <item>THE ALTER OF THE DEAD </item>
+        <item> Pride and Prejudice</item>
+        <item>Twelve Years a Slave</item>
+        <item>The Memoirs of Sherlock Holmes </item>
+        <item>The Return of Sherlock Holmes </item>
+        <item>The Case-Book of Sherlock Holmes </item>
+        <item>The Complete Sherlock Holmes </item>
+    </string-array>
+    <string-array name="urlgenralBook">
+        <item>https://www.gutenberg.org/files/642/642-h/642-h.htm</item>
+        <item>https://www.planetebook.com/pride-and-prejudice/</item>
+        <item>https://www.gutenberg.org/files/45631/45631-h/45631-h.htm</item>
+        <item>https://sherlock-holm.es/stories/html/mems.html</item>
+        <item>https://sherlock-holm.es/stories/html/retn.html</item>
+        <item> https://sherlock-holm.es/stories/html/case.html</item>
+        <item>https://sherlock-holm.es/stories/html/cano.html</item>
+    </string-array>
+
+    <string-array name="novel">
+        <item>A Study In Scarlet </item>
+        <item>The Sign of the Four </item>
+        <item>The Hound of the Baskervilles </item>
+        <item>The Valley of Fear </item>
+    </string-array>
+    <string-array name="urlNovel">
+        <item>https://sherlock-holm.es/stories/html/stud.html</item>
+        <item>https://sherlock-holm.es/stories/html/sign.html</item>
+        <item>https://sherlock-holm.es/stories/html/houn.html</item>
+        <item>https://sherlock-holm.es/stories/html/vall.html</item>
+
+    </string-array>
+
+    <string-array name="shortStory">
+        <item>A Scandal in Bohemia</item>
+        <item>The Red-Headed League </item>
+        <item>A Case of Identity </item>
+        <item>The Boscombe Valley Mystery </item>
+        <item>The Five Orange Pips </item>
+        <item>The Man with the Twisted Lip </item>
+        <item>The Adventure of the Blue Carbuncle </item>
+        <item> The Adventure of the Speckled Band</item>
+        <item>The Adventure of the Engineer\'s Thumb </item>
+        <item>The Adventure of the Noble Bachelor </item>
+        <item> The Adventure of the Beryl Coronet </item>
+        <item> The Adventure of the Copper Beeches</item>
+    </string-array>
+
+    <string-array name="urlShortStory">
+        <item>https://sherlock-holm.es/stories/html/scan.html</item>
+        <item>https://sherlock-holm.es/stories/html/redh.html</item>
+        <item>https://sherlock-holm.es/stories/html/iden.html</item>
+        <item>https://sherlock-holm.es/stories/html/bosc.html</item>
+        <item>https://sherlock-holm.es/stories/html/five.html</item>
+        <item>https://sherlock-holm.es/stories/html/twis.html</item>
+        <item>https://sherlock-holm.es/stories/html/blue.html</item>
+        <item>https://sherlock-holm.es/stories/html/spec.html</item>
+        <item>https://sherlock-holm.es/stories/html/engr.html</item>
+        <item>https://sherlock-holm.es/stories/html/nobl.html</item>
+        <item>https://sherlock-holm.es/stories/html/bery.html</item>
+        <item>https://sherlock-holm.es/stories/html/copp.html</item>
+
+    </string-array>
+
+    <string-array name="popularshortstory">
+        <item>The Adventure of the Blue Carbuncle </item>
+        <item> The Adventure of the Speckled Band</item>
+        <item>The Adventure of the Engineer\'s Thumb </item>
+        <item>The Adventure of the Noble Bachelor </item>
+        <item> The Adventure of the Beryl Coronet </item>
+        <item> The Adventure of the Copper Beeches</item>
+    </string-array>
+    <string-array name="urlPopularShort">
+        <item>https://sherlock-holm.es/stories/html/blue.html</item>
+        <item>https://sherlock-holm.es/stories/html/spec.html</item>
+        <item>https://sherlock-holm.es/stories/html/engr.html</item>
+        <item>https://sherlock-holm.es/stories/html/nobl.html</item>
+        <item>https://sherlock-holm.es/stories/html/bery.html</item>
+        <item>https://sherlock-holm.es/stories/html/copp.html</item>
+    </string-array>
+
+    <string-array name="booktypes">
+        <item>Short Stories</item>
+        <item>Novel</item>
+        <item>Popular Short Stories</item>
+        <item>Popular Book</item>
+        <item>Random Book</item>
+    </string-array>
+
+</resources>

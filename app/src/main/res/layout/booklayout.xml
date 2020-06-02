@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/backgrounBlack"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:id="@+id/rel_img"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="90dp"
+            android:layout_height="160dp"
+            android:layout_centerInParent="true"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/aliceinwonderland" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_below="@+id/rel_img">
+
+        <TextView
+            android:id="@+id/tv_bookTitle"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:maxLines="2"
+            android:lines="2"
+            android:text="ALice in wonderland "
+            android:textColor="@color/colorText" />
+    </RelativeLayout>
+</RelativeLayout>
